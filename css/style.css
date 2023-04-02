@@ -41,6 +41,9 @@ hr {
     width: 210mm;
     height: 297mm;
   }
+  form {
+    display: none;
+  }
 }
 .rightpane {
   background-color: white;
