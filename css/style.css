@@ -1,0 +1,156 @@
+body {
+  background: rgb(204, 204, 204);
+  margin: 0px;
+}
+page[size="A4"] {
+  background: white;
+  width: 21cm;
+  height: 29.7cm;
+  display: block;
+  margin: 0 auto;
+  margin-top: 0.5cm;
+  margin-bottom: 0.5cm;
+  box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+  font-family: Raleway;
+  font-size: 14px;
+}
+p {
+  margin: 0px;
+}
+hr {
+  border: white;
+  height: 3px;
+  background: white;
+  width: 85%;
+  margin-left: 0px;
+  margin-top: 3px;
+}
+.leftHeader {
+  font-family: "Open Sans";
+  font-size: 22px;
+  font-weight: bold;
+}
+@media print {
+  body,
+  page[size="A4"] {
+    margin: 0;
+    box-shadow: 0;
+  }
+  html,
+  body {
+    width: 210mm;
+    height: 297mm;
+  }
+}
+.rightpane {
+  background-color: white;
+  width: 68%;
+  float: left;
+  height: 29.7cm;
+}
+.leftpane {
+  background-color: #1f1e1e;
+  width: 32%;
+  height: 100%;
+  float: left;
+  color: white;
+  height: 29.7cm;
+}
+
+.circletag {
+  width: 150px;
+  margin: 8px;
+  margin-left: 50px;
+  margin-bottom: 0px;
+  border: 3px solid white;
+  border-radius: 500px;
+  -webkit-border-radius: 500px;
+  -moz-border-radius: 500px;
+}
+
+.aref {
+  font-size: 14px;
+  padding-left: 0px;
+  color: white;
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  justify-content: left;
+}
+
+img {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 50%;
+}
+
+.text {
+  font-size: 16px;
+  padding-left: 20px;
+}
+
+.leftul {
+  padding-inline-start: 20px;
+}
+.ulclass {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.rightheader {
+  font-weight: 1000;
+  font-size: 38px;
+  text-align: center;
+  margin-top: 12px;
+  font-family: "montserrat-extra-bold", sans-serif;
+  margin-bottom: -10px;
+}
+.rightsubheader {
+  font-weight: 1000;
+  font-size: 14px;
+  text-align: center;
+  font-family: "montserrat", sans-serif;
+}
+
+.righttitleheader {
+  font-weight: 1000;
+  font-size: 24px;
+  text-align: left;
+  font-family: "open sans", sans-serif;
+}
+
+.hrclass {
+  border: black;
+  height: 3px;
+  background: black;
+  width: 98%;
+  margin-left: 0px;
+  margin-top: 3px;
+}
+
+.pclass {
+  font-family: Raleway;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.role {
+  font-family: system-ui;
+  font-size: 15px;
+  font-weight: bold;
+}
+.roletime {
+  font-family: system-ui;
+  font-size: 10px;
+  font-weight: bold;
+}
+.roledesc {
+  font-family: Raleway;
+  font-size: 12px;
+  font-weight: 1000;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
